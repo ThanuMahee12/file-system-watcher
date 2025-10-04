@@ -13,9 +13,9 @@ def parse_arguments():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python -m watcher /path/to/watch
-  python -m watcher /path1 /path2 /path3
-  python -m watcher /path1 /path2 --log-dir /custom/logs
+  uv run python -m watcher /path/to/watch
+  uv run python -m watcher /path1 /path2 /path3
+  uv run python -m watcher /path1 /path2 --log-dir /custom/logs
         """
     )
 

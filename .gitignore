@@ -1,4 +1,21 @@
-venv
-.venv
-__pycache__
+# Virtual environments
+venv/
+.venv/
+
+# Python bytecode
 *.pyc
+*.pyo
+**/__pycache__/
+
+# Logs
+logs/
+*.log
+
+# UV lock file
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

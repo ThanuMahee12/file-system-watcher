@@ -2,7 +2,7 @@ import sys
 import argparse
 from pathlib import Path
 from loguru import logger
-from .logger import setup_logger
+from .utils.logger import setup_logger
 from .observer import FileSystemWatcher
 
 

@@ -2,7 +2,7 @@
 
 from .main import main
 from .observer import FileSystemWatcher, WatcherEventHandler
-from .logger import setup_logger, add_folder_logger, remove_folder_logger
+from .utils.logger import setup_logger, add_folder_logger, remove_folder_logger
 
 __all__ = [
     "main",

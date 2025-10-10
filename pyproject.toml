@@ -1,5 +1,5 @@
 [project]
-name = "file-system-watcher"
+name = "G-SyncWeave"
 version = "0.1.0"
 description = "Real-time filesystem watcher with Python using watchdog and loguru for monitoring file/directory changes with beautiful logging."
 readme = "README.md"
